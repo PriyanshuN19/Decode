@@ -1,0 +1,73 @@
+1.
+Enter first number
+2
+Enter second number and value for taking modulus
+3 6
+Output is: 0
+
+2.
+Enter first number
+3
+Enter second number
+2
+1 1
+
+3.
+2 3
+2
+ 
+4.
+#include <iostream>
+using namespace std;
+int main()
+{
+float h,r,v;
+cout<<"Enter Height Of Cylinder \n";
+cin>>h;
+cout<<"Enter Radius Of Cylinder \n";
+cin>>r;
+v=((22/7)*r*r*h);
+cout<<"Volume Of Cylinder"<<endl;
+cout<<v;
+
+
+}
+
+5.
+#include <iostream>
+using namespace std;
+
+int main() {
+    char char1, char2;
+
+    cout << "Enter the first character: ";
+    cin >> char1;
+    cout << "Enter the second character: ";
+    cin >> char2;
+
+    int ascii1 = static_cast<int>(char1);
+    int ascii2 = static_cast<int>(char2);
+    int difference = abs(ascii1 - ascii2);
+
+    cout << "The difference between ASCII values of '" << char1 << "' and '" << char2 << "' is " << difference << "." << endl;
+
+    return 0;
+}
+
+6.
+49
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
